@@ -1,1 +1,25 @@
-# FATEC-JCR-4DSM-IEC-2026-1-Gabriel-Camargo
+# Portfólio – Experiência do Usuário – 2026/1
+
+## 👤 Aluno
+- Nome: Gabriel Camargo
+- LinkedIn: 
+- GitHub: [Gabriel Camargo](https://github.com/AllanDreemur)
+
+---
+
+## 📁 Estrutura
+
+- P1
+- P2
+- Requisitos-ABP
+- Reflexoes
+
+---
+
+## 📌 Projeto ABP
+Descrição do problema escolhido.
+
+---
+
+## 🧠 Aprendizados
+Registro reflexivo sobre evolução no semestre.
