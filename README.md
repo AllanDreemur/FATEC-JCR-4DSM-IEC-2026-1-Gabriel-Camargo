@@ -1,4 +1,4 @@
-# Portfólio – Experiência do Usuário – 2026/1
+# Portfólio – Integracao e Entrega Continua – 2026/1
 
 ## 👤 Aluno
 - Nome: Gabriel Camargo
