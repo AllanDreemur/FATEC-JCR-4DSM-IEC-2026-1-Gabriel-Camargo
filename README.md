@@ -23,3 +23,5 @@ Descrição do problema escolhido.
 
 ## 🧠 Aprendizados
 Registro reflexivo sobre evolução no semestre.
+
+CI/CD configurado na Aula 3
