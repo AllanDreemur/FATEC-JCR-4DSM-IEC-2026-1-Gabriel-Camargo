@@ -1,0 +1,23 @@
+# Nome do workflow (aparecerá na aba Actions)
+name: CI Simples
+
+# Eventos que disparam o workflow
+on:
+  push:
+    branches: [ main ]        # dispara apenas quando o commit é na branch main
+  pull_request:
+    branches: [ main ]        # dispara quando há PR para main
+
+jobs:
+  # Definindo um job chamado "build"
+  build:
+    runs-on: ubuntu-latest   # ambiente que o GitHub usa (máquina Linux)
+
+    steps:
+      # 1. Baixar o código do repositório
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      # 2. Executar um comando simples (teste inicial)
+      - name: Teste de funcionamento
+        run: echo "CI funcionando no projeto INPE!"
