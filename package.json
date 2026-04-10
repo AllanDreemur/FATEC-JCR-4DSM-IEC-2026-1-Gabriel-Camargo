@@ -1,0 +1,25 @@
+{
+  "name": "iec",
+  "version": "1.0.0",
+  "description": "- Nome: Gabriel Camargo\r - LinkedIn: \r - GitHub: [Gabriel Camargo](https://github.com/AllanDreemur)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllanDreemur/FATEC-JCR-4DSM-IEC-2026-1-Gabriel-Camargo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AllanDreemur/FATEC-JCR-4DSM-IEC-2026-1-Gabriel-Camargo/issues"
+  },
+  "homepage": "https://github.com/AllanDreemur/FATEC-JCR-4DSM-IEC-2026-1-Gabriel-Camargo#readme",
+  "devDependencies": {
+    "eslint": "^10.2.0",
+    "prettier": "^3.8.2"
+  }
+}
