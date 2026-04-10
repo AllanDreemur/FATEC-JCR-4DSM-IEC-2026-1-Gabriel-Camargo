@@ -1,0 +1,11 @@
+groups:
+- name: AlertasDaAplicacao
+  rules:
+  - alert: AltaTaxaDeErros
+    expr: rate(app_errors_total[1m]) > 0
+    for: 30s
+    labels:
+      severity: critical
+    annotations:
+      summary: "Erros detectados na aplicação"
+      description: "A aplicação está gerando erros na rota /erro há mais de 30 segundos."
