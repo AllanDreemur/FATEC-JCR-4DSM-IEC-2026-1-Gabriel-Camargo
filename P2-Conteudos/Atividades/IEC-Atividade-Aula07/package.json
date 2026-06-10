@@ -1,0 +1,16 @@
+{
+  "name": "iec-aula07",
+  "version": "1.0.0",
+  "description": "Atividade Aula 07 - Testes Automatizados Avançados",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Gabriel Camargo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
