@@ -1,0 +1,30 @@
+# codecov.yml
+# Configuração do Codecov para rastreamento contínuo de cobertura
+# Documentação: https://docs.codecov.com/docs/codecov-yaml
+
+coverage:
+  # Define metas de cobertura por tipo de status
+  status:
+    project:
+      default:
+        # Cobertura mínima aceitável no projeto todo
+        target: 80%
+        threshold: 2%
+    patch:
+      default:
+        # Todo código novo em PRs precisa ter pelo menos 80% de cobertura
+        target: 80%
+
+# Configurações de comentário automático em PRs
+comment:
+  layout: "reach,diff,flags,files"
+  behavior: default
+  require_changes: false
+
+# Flags permitem segmentar a cobertura por módulo
+# Útil para isolar módulos críticos como alertas e inundações
+flags:
+  alertas:
+    paths:
+      - src/alerta.js
+    carryforward: true
